@@ -1,6 +1,6 @@
 ### A
-- 여기에 Github ID 입력:
+- 여기에 Github ID 입력:jgkim7848-lab
 ### B
-- 여기에 Github ID 입력:
+- 여기에 Github ID 입력: dlwlsdn243-ljw 
 ### C
-- 여기에 Github ID 입력:
+- 여기에 Github ID 입력: chihunpak
