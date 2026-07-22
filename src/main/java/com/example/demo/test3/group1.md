@@ -3,4 +3,4 @@
 ### B
 - 여기에 Github ID 입력: rooguie
 ### C
-- 여기에 Github ID 입력: @HYUN1400
+- 여기에 Github ID 입력: HYUN1400
