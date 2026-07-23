@@ -2,6 +2,7 @@ package com.example.demo.chatbot;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.*;
 
 @Entity
@@ -13,6 +14,6 @@ import lombok.*;
 @Builder
 public class Chatbot {
 
-    @id
+    @Id
     private Long id;
 }
