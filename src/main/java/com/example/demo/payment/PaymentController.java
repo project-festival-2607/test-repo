@@ -6,7 +6,4 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/example/*")
 public class PaymentController {
-
-
-
 }
