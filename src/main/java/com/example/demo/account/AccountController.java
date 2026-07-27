@@ -1,9 +1,9 @@
-package com.example.demo.auth;
+package com.example.demo.account;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/auth/*")
-public class AuthController {
+public class AccountController {
 }
