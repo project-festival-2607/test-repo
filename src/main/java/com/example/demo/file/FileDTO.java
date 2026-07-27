@@ -17,8 +17,8 @@ public class FileDTO { // "Example"을 첫 글자를 대문자로 한 폴더 이
   private Long uuid;
   private String fileName;
   private String saveDir;
-  private int fileType;
-  private int fileSubtype;
+  private FileType fileType;
+  private String fileSubtype;
   private Long fileSize;
   private LocalDateTime uploadedAt;
 }

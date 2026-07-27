@@ -26,9 +26,9 @@ public class File {  // "Example"을 첫 글자를 대문자로 한 폴더 이�
   private String saveDir;
   @Enumerated(EnumType.STRING)
   @Column(name = "file_type", length = 15)
-  private int fileType;
+  private FileType fileType;
   @Column(name = "file_subtype", length = 100)
-  private int fileSubtype;
+  private String fileSubtype;
   @Column(name = "file_size")
   private Long fileSize;
   @Column(name = "uploaded_at")
