@@ -2,7 +2,7 @@ package com.example.demo.festival;
 
 import lombok.*;
 
-import java.text.DecimalFormat;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Getter
@@ -18,8 +18,8 @@ public class FestivalDTO {
     private int contentType;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
-    private int mapX;
-    private int mapY;
+    private BigDecimal mapX;
+    private BigDecimal mapY;
     private String zipCode;
     private String telNum;
     private String fesInfo;

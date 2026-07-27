@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
@@ -26,10 +27,10 @@ public class Festival {
     private LocalDateTime startDate;
     @Column(name = "end_date")
     private LocalDateTime endDate;
-    @Column(name = "map_x")
-    private int mapX;
-    @Column(name = "map_y")
-    private int mapY;
+    @Column(name = "map_x", precision = 11, scale = 6)
+    private BigDecimal mapX;
+    @Column(name = "map_y", precision = 10, scale = 6)
+    private BigDecimal mapY;
     @Column(name = "zip_code")
     private String zipCode;
     @Column(name = "tel_num")
