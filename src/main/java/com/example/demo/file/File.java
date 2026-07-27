@@ -1,9 +1,6 @@
 package com.example.demo.file;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -21,14 +18,16 @@ public class File {  // "Example"을 첫 글자를 대문자로 한 폴더 이�
   @Id
   @Column(name = "file_id", nullable = false)
   private Long id;
+  @Column(length = 36)
   private Long uuid;
-  @Column(name = "file_name")
+  @Column(name = "file_name", length = 225)
   private String fileName;
-  @Column(name = "save_dir")
+  @Column(name = "save_dir", length = 225)
   private String saveDir;
-  @Column(name = "file_type")
+  @Enumerated(EnumType.STRING)
+  @Column(name = "file_type", length = 15)
   private int fileType;
-  @Column(name = "file_subtype")
+  @Column(name = "file_subtype", length = 100)
   private int fileSubtype;
   @Column(name = "file_size")
   private Long fileSize;
