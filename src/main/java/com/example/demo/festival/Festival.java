@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -23,9 +23,9 @@ public class Festival {
     @Column(name = "content_type")
     private int contentType;
     @Column(name = "start_date")
-    private Date startDate;
+    private LocalDateTime startDate;
     @Column(name = "end_date")
-    private Date endDate;
+    private LocalDateTime endDate;
     @Column(name = "map_x")
     private int mapX;
     @Column(name = "map_y")

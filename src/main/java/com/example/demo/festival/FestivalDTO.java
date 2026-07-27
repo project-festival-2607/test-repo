@@ -3,7 +3,7 @@ package com.example.demo.festival;
 import lombok.*;
 
 import java.text.DecimalFormat;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -16,8 +16,8 @@ public class FestivalDTO {
     private String title;
     private String address;
     private int contentType;
-    private Date startDate;
-    private Date endDate;
+    private LocalDateTime startDate;
+    private LocalDateTime endDate;
     private int mapX;
     private int mapY;
     private String zipCode;
