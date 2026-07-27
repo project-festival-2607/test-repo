@@ -36,6 +36,7 @@ public class Account {
     private AccountType accountType; // 계정유형
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "account_status")
     private AccountStatus accountStatus;  // 계정상태
 
     @Column(name = "created_at")
