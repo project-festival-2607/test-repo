@@ -42,13 +42,10 @@ public class Payment {
 
     @Column(name = "order_name")
     private String orderName;
-
     @Column(name = "total_amount")
     private int totalAmount;
-
     @Column(name = "returnable_amount")
     private int returnableAmount;
-
     @Column(name = "payment_status")
     private String paymentStatus;
 
