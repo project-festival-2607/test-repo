@@ -17,10 +17,10 @@ public class Payment {
 
     @Id
     @Column(name = "payment_id")
-    private int paymentId;
+    private Long paymentId;
 
     @Column(name = "id2")
-    private int id2;
+    private Long id2;
 
     @Column(name = "product_id2")
     private int productId2;

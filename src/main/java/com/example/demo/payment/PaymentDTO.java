@@ -11,8 +11,8 @@ import java.time.LocalDateTime;
 @Builder
 public class PaymentDTO {
 
-    private int paymentId;
-    private int id2;
+    private Long paymentId;
+    private Long id2;
     private int productId2; //??????????????
     private int payedNum;
     private int productId;
