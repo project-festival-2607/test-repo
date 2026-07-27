@@ -19,6 +19,7 @@ public class Festival {
     @Id
     @Column(name = "content_id")
     private long contentId;
+    @Column(length = 255)
     private String title;
     private String address;
     @Column(name = "content_type")
