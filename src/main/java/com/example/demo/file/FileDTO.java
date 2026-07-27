@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class FileDTO { // "Example"을 첫 글자를 대문자로 한 폴더 이름으로 바꾸기
 
   private Long id;
-  private Long uuid;
+  private String uuid;
   private String fileName;
   private String saveDir;
   private FileType fileType;

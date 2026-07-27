@@ -19,7 +19,7 @@ public class File {  // "Example"을 첫 글자를 대문자로 한 폴더 이�
   @Column(name = "file_id", nullable = false)
   private Long id;
   @Column(length = 36)
-  private Long uuid;
+  private String uuid;
   @Column(name = "file_name", length = 225)
   private String fileName;
   @Column(name = "save_dir", length = 225)
