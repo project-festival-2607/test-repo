@@ -22,10 +22,10 @@ public class Application {  // "Example"을 첫 글자를 대문자로 한 폴�
   private Long id; // uid
 
   @Column
-  private String recruitId; // 모집공고 아이디
+  private Long recruitId; // 모집공고 아이디
 
   @Column
-  private String resumeId; // 이력서 아이디
+  private Long resumeId; // 이력서 아이디
 
   @Column
   private LocalDateTime registerDate; // 지원일시
@@ -35,5 +35,5 @@ public class Application {  // "Example"을 첫 글자를 대문자로 한 폴�
 
   @Column
   @Enumerated(EnumType.STRING)
-  private Application result; // 결과
+  private ApplicationStatus result; // 결과
 }
