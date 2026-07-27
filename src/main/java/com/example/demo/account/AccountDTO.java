@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.demo.account;
 
 import lombok.*;
 
@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class AuthDTO {
+public class AccountDTO {
 
     private Long id;
 
