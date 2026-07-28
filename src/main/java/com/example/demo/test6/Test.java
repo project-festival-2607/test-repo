@@ -6,7 +6,7 @@ public class Test {
   //        구현을 마친 후 커밋 메시지를 "feat: add() 함수 구현" 으로 입력 후 commit
 
   static int add(int a, int b) {
-    return 0;   // 여기를 구현하기
+    return a+b;   // 여기를 구현하기
   }
 
   // 작업 2: 양의 정수 a, b의 최대공약수를 구하는 함수 gcd() 수정하기
